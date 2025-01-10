@@ -5,7 +5,7 @@ function App() {
   return React.createElement(
     "div",
     {
-      // test 주석 22
+      // 테스트주석
       className: "app",
     },
 
