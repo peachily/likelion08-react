@@ -1,46 +1,47 @@
-import React from '../lib/react.js';
-import Box from './box';
+import React from "../lib/react.js";
+import Box from "./box";
 
 function App() {
   return React.createElement(
-    'div',
+    "div",
     {
-      className: 'app',
+      // test 주석 22
+      className: "app",
     },
 
     React.createElement(
       Box,
       {
-        className: 'box--circle',
+        className: "box--circle",
         id: "i'm-box",
-        'aria-label': '나는 박스다!',
-        title: '나는 박스다!',
-        translate: 'no',
+        "aria-label": "나는 박스다!",
+        title: "나는 박스다!",
+        translate: "no",
       },
-      '기본 박스'
+      "기본 박스"
     ),
 
     React.createElement(
       Box,
       {
-        size: 'small',
+        size: "small",
         style: {
-          backgroundColor: '#0388d1',
+          backgroundColor: "#0388d1",
         },
       },
-      '작은 박스'
+      "작은 박스"
     ),
 
     React.createElement(
       Box,
       {
-        size: 'big',
+        size: "big",
         style: {
-          backgroundColor: '#1ecff6',
+          backgroundColor: "#1ecff6",
           borderRadius: 20, // '20px'
         },
       },
-      '큰 박스'
+      "큰 박스"
     )
   );
 }
