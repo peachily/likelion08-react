@@ -4,9 +4,9 @@ import Box from "./box";
 function App() {
   return React.createElement(
     "div",
+    // 테스트주석
     {
-      // 테스트주석
-      className: "ap",
+      className: "app",
     },
 
     React.createElement(
